@@ -10,5 +10,16 @@ void SallestRow(string[] array)
         {
             System.Console.WriteLine(array[i] + " ");
         }
+        else
+        {
+            k++;
+        }
+
+    }
+    if (k== array.Length)
+    {
+        System.Console.WriteLine("[]");
     }
 }
+
+SallestRow(arrayForTest);
